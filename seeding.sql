@@ -22,11 +22,10 @@ VALUES (1,00001,'Petey Cruiser','Madrid'),
         (8,00008,'Shonda Leer','São Paulo');
 
 INSERT INTO invoices(invoice_id,invoice_number,date_column,car,customer,salesperson)
-VALUES (1,852399038,'2018-08-22,',1,1,3),
+VALUES (1,852399038,'2018-08-22',1,1,3),
        (2,731166526,'2018-12-31',3,3,5),
        (3,271135104,'2019-01-22',2,2,7);
        
-       select *
-       from invoices
+       
        
         
